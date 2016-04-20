@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Anuka Trekhdenova](https://up.htmlacademy.ru/htmlcss/13/user/193034).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Ожерельев МОк](https://htmlacademy.ru/profile/id29002).
 
 ---
 
