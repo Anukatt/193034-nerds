@@ -5,8 +5,8 @@
         <title>Nerd's магазин готовых макетов</title>
     </head>
 <body>
-<div class="container">
     <header class="header">
+       <div class="container clearfix">
         <div class="logo"><img src="logo.png" alt="Лого"></div>
         <ul class="header__nav">
             <li class="header__nav__itm">Студия</li>
@@ -14,6 +14,7 @@
             <li class="header__nav__itm">Магазин</li>
             <li class="header__nav__itm header__nav__itm--trash">Корзина</li>
         </ul>
+        </div>
     </header>
     <div class="slider">
         <div class="slider__cont">
@@ -48,21 +49,21 @@
             <li class="slider__pagintor"></li>
         </ul>
     </div>
-    <div class="body">
+    <div class="main">
         <div class="row-offer">
-            <div class="col-1-of-3-offer">
+            <div class="row-offer__item">
                 <div class="col__img"><img src="#" alt="Ноут-на-красном"></div>
                 <p class="col__title">Веб-сайты</p>
                 <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
                 <a class="btn btn--red">ЗАКАЗАТЬ</a>
             </div>
-            <div class="col-2-of-3-offer">
+            <div class="row-offer__item">
                 <div class="col__img"><img src="#" alt="Телефон-на-зеленом"></div>
                 <p class="col__title">Веб-сайты</p>
                 <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
                 <a class="btn btn--green">ЗАКАЗАТЬ</a>
             </div>
-            <div class="col-3-of-3-offer">
+            <div class="row-offer__item">
                 <div class="col__img"><img src="#" alt="Флипачарт-на-желтом"></div>
                 <p class="col__title">Веб-сайты</p>
                 <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
@@ -70,7 +71,7 @@
             </div>
         </div>
         <div class="row-about">
-            <div class="col-1-of-2-about">
+            <div class="row-about__col-1-2">
                 <p class="about__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
                 <p class="about__subtile">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше
                     креатива. Работаем не покладая рук, как роботы.</p>
@@ -83,7 +84,7 @@
                     <li class="about__list__itm">Слайдшоу и видео для корпоративных презентаций</li>
                 </ul>
             </div>
-            <div class="col-2-of-2-about">
+            <div class="row-about__col-2-2">
                 <div class="big__logo">
                     <img src="logo.png" alt="Лого">
                     <p class="big_logo__text">Since 2004</p>
@@ -97,7 +98,7 @@
             </ul>
 
         </div>
-        <ul class="row partners">
+        <ul class="main__row-partners">
             <li class="partners__itm">
                 <img src="#" alt="Лого-Глуханко">
             </li>
@@ -120,8 +121,8 @@
         </div>
         <div class="yamap"></div>
     </div>
-</div>
 <footer class="footer">
+  <div class="container">
     <ul class="footer__share">
         <li class="footer__share__itm footer__share__itm--vk"></li>
         <li class="footer__share__itm footer__share__itm--fb"></li>
@@ -129,6 +130,7 @@
     </ul>
     <p class="footer__title">Давайте дружить, это выгодно!</p>
     <p class="footer__subtitle">Скидка 10% для друзей из социальных сетей.</p>
+    </div>
 </footer>
 </body>
 </html>

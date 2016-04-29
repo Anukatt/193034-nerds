@@ -1,0 +1,169 @@
+.body{
+  min-width: 1122px;
+  min-height: 1750px;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  min-height: 84px;
+  margin-bottom: 10px;
+
+}
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+  /*не понимаю по макету, какой размер тут нужно ставить*/
+  height: 125px;
+}
+
+.container{
+    width: 880px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+}
+.logo{
+  float: left;
+  width: 138px;
+  height: 55px;
+  margin-right:auto;
+
+}
+.header__nav{
+  width: 500px;
+  float: left;
+}
+.header__nav__itm--trash{
+  float: right;
+  width: 110px;
+
+}
+
+
+.slider{
+    width: 880px;
+    height: 310px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+
+.slider__cont{
+  float: left;
+  width: 480px;
+}
+
+.slider__image{
+  float: right;
+  width: 340px;
+  margin-bottom: 20px;
+}
+
+.slider__pagintor{
+  float:inherit;
+  width: 48px;
+  height: 10px;
+}
+
+.main{
+/*такие же параметры ширины и выравнивания по центру как и partners__itm ,about__list, row-about, slider, header - как указать, чтобы не дублировать?*/
+}
+
+.row-offer{
+  float:inherit;
+  width: 880px;
+  height: 230px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row-offer__item{
+    float: left;
+    width: 240px;
+    height: 380px;
+    margin-right: 80px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.row-offer__item:last-child{
+  margin-right: 0;
+}
+
+.row-about{
+  float: inherit;
+  width: 880px;
+  height: 470px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.row-about__col-1-2{
+  float: left;
+  width: 670px;
+  margin-right: 20px;
+  padding-top: 110px;
+}
+
+.row-about__col-2-2{
+  float: right;
+  width: 230px;
+  margin-right: 10px
+}
+
+.partners__itm{
+  float: inherit;
+  width: 880px;
+  height: 170px;
+  border-bottom: solid 1px #eeeeee;
+}
+
+.partners__itm{
+  float: left;
+  margin-right: 120px;
+  margin-bottom: 85px;
+}
+
+.partners__itm:last-child{
+  margin-right: 20px;
+}
+
+.map{
+  height: 415px;
+  }
+
+.map__card{
+  width: 250px;
+  height: 240px;
+  padding-top: 30 px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: white;
+}
+
+.footer{
+    clear: both;
+}
+
+.footer__share{
+  float: left;
+  height: 215px;
+}
+/*хотелось нарисовать кружки, выделенные в свой контейнер*/
+.footer__share .li{
+  width: 64px;
+  height: 64px;
+  background: #e1e1e1;
+  -moz-border-radius: 32px;
+  -webkit-border-radius: 32px;
+  border-radius: 32px;
+}
+
+.footer__title{
+  float: left;
+  width: 260px;
+  padding-left: 320px;
+}
+
+
+
