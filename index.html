@@ -3,134 +3,142 @@
     <head>
         <meta charset="utf-8">
         <title>Nerd's магазин готовых макетов</title>
+        <link href="style.css" rel="stylesheet">
     </head>
 <body>
     <header class="header">
        <div class="container clearfix">
-        <div class="logo"><img src="logo.png" alt="Лого"></div>
+        <div class="logo"> <a href="#"> <img src="#" alt="Лого"></a></div>
         <ul class="header__nav">
-            <li class="header__nav__itm">Студия</li>
-            <li class="header__nav__itm">Клиенты</li>
-            <li class="header__nav__itm">Магазин</li>
-            <li class="header__nav__itm header__nav__itm--trash">Корзина</li>
+            <li><a href="#">Студия</a></li>
+            <li><a href="#">Клиенты</a></li>
+            <li><a href="#">Магазин</a></li>
+            <li><a href="#">Корзина</a></li>
         </ul>
         </div>
     </header>
     <div class="slider">
+      <div class="container">
         <div class="slider__cont">
-            <div class="slider__cont__itm slider__cont__itm--active">
-                <p class="slider__title">Любите ли вы математику, как любим ее мы?</p>
-                <p class="slider__text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им
-                    возможность все просчитать</p>
-                <a class="btn" href="">УЗНАТЬ БОЛЬШЕ</a>
+            <div class="slider__itm--active">
+              <div><img src="#" alt="Экраны"></div>
+              <div class="slider__title">Долго, дорого, скрупулезно.</div>
+                <div class="slider__text">Математически выверенный дизайн для вашего сайта или мобильного приложения.</div>
+                <a class="btn" href="#">Узнать больше</a>
             </div>
 
-            <div class="slider__cont__itm">
-                <p class="slider__title">Любите ли вы математику, как любим ее мы?</p>
-                <p class="slider__text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им
-                    возможность все просчитать</p>
-                <a class="btn" href="">УЗНАТЬ БОЛЬШЕ</a>
+            <div class="slider__itm--active">
+              <div><img src="#" alt="Калькулятор"></div>
+              <div class="slider__title">Любите ли вы математику, как любим ее мы?</div>
+                <div class="slider__text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им
+                    возможность все просчитать</div>
+                <a class="btn" href="#">Узнать больше</a>
             </div>
-            <div class="slider__cont__itm">
-                <p class="slider__title">Любите ли вы математику, как любим ее мы?</p>
-                <p class="slider__text">Нашим дизайнерам мы удаляем нейроны, ответственные за креатив, чтобы дать им
-                    возможность все просчитать</p>
-                <a class="btn" href="">УЗНАТЬ БОЛЬШЕ</a>
+            <div class="slider__itm--active">
+              <div><img src="#" alt="Психоделика"></div>
+                <div class="slider__title">Только наркотики, только хардкор!</div>
+                <div class="slider__text">Все дизайнерские решения в нашей компании принимаются только под воздействием качественных галлюциногенов</div>
+                <a class="btn" href="#">Узнать больше</a>
             </div>
         </div>
-        <div class="slider__image">
-            <div class="slider__image__itm slider__image__itm--active"></div>
-            <div class="slider__image__itm"></div>
-            <div class="slider__image__itm"></div>
-        </div>
+    </div>
         <ul class="slider__pagintor">
-            <li class="slider__pagintor slider__pagintor--active"></li>
-            <li class="slider__pagintor"></li>
-            <li class="slider__pagintor"></li>
+            <li class="slider__pagintor--active"></li>
+            <li class="slider__pagintor--active"></li>
+            <li class="slider__pagintor--active"></li>
         </ul>
     </div>
     <div class="main">
-        <div class="row-offer">
-            <div class="row-offer__item">
+      <div class="container">
+        <div class="offer">
+            <div class="offer__item">
                 <div class="col__img"><img src="#" alt="Ноут-на-красном"></div>
                 <p class="col__title">Веб-сайты</p>
                 <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                <a class="btn btn--red">ЗАКАЗАТЬ</a>
+                <a class="btn--main" href="#">Заказать</a>
             </div>
-            <div class="row-offer__item">
+            <div class="offer__item">
                 <div class="col__img"><img src="#" alt="Телефон-на-зеленом"></div>
-                <p class="col__title">Веб-сайты</p>
-                <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                <a class="btn btn--green">ЗАКАЗАТЬ</a>
+                <p class="col__title">Приложения</p>
+                <p class="col__text">Покорите топ-10 приложений в AppStrore и Google Play</p>
+                <a class="btn--main" href="#">Заказать</a>
             </div>
-            <div class="row-offer__item">
+            <div class="offer__item">
                 <div class="col__img"><img src="#" alt="Флипачарт-на-желтом"></div>
-                <p class="col__title">Веб-сайты</p>
-                <p class="col__text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                <a class="btn btn--yellow">ЗАКАЗАТЬ</a>
+                <p class="col__title">Презентации</p>
+                <p class="col__text">Вы даже не подозреваете, насколько вы изумительны!</p>
+                <a class="btn--main" href="#">Заказать</a>
             </div>
         </div>
-        <div class="row-about">
-            <div class="row-about__col-1-2">
+      </div>
+        <div class="about">
+          <div class="container">
+            <div class="about">
                 <p class="about__title">Мы — маленькая, но гордая дизайн-студия из Краснодара.</p>
                 <p class="about__subtile">Исповедуем принципы минимализма и чистоты. Ставим математический расчет выше
                     креатива. Работаем не покладая рук, как роботы.</p>
                 <p class="about__service">Выполняем заказы на разработку</p>
                 <ul class="about__list">
-                    <li class="about__list__itm">Веб-сайтов любой сложности</li>
+                    <li class="list__itm">Веб-сайтов любой сложности</li>
 
-                    <li class="about__list__itm">Мобильных приложений для iOS и Android</li>
+                    <li class="list__itm">Мобильных приложений для iOS и Android</li>
 
-                    <li class="about__list__itm">Слайдшоу и видео для корпоративных презентаций</li>
+                    <li class="list__itm">Слайдшоу и видео для корпоративных презентаций</li>
                 </ul>
             </div>
-            <div class="row-about__col-2-2">
-                <div class="big__logo">
-                    <img src="logo.png" alt="Лого">
+            <div class="about__right">
+                <a class="logo">
+                    <img src="#" alt="Лого">
                     <p class="big_logo__text">Since 2004</p>
-                </div>
+                </a>
             </div>
-            <p class="about__service">КАК Мы работаем:</p>
+            <div class="about__service">КАК Мы работаем:</div>
             <ul class="about__list">
-                <li class="about__list__itm">С самоотдачей 146%</li>
-                <li class="about__list__itm">Соблюдая сроки на 100%</li>
-                <li class="about__list__itm">По предоплате 50%</li>
+                <li class="list__itm">С самоотдачей 146%</li>
+                <li class="list__itm">Соблюдая сроки на 100%</li>
+                <li class="list__itm">По предоплате 50%</li>
             </ul>
 
         </div>
-        <ul class="main__row-partners">
+          <div class="container">
+          <ul class="partners">
             <li class="partners__itm">
-                <img src="#" alt="Лого-Глуханко">
+                <a href="#"><img src="#" alt="Лого-Глуханко"></a>
             </li>
             <li class="partners__itm">
-                <img src="#" alt="Лого-HTML">
+              <a href="#"><img src="#" alt="Лого-HTML"></a>
             </li>
             <li class="partners__itm">
-                <img src="#" alt="Лого-Бородинский">
+              <a href="#"><img src="#" alt="Лого-Бородинский"></a>
             </li>
         </ul>
+          </div>
     </div>
-    <div class="map">
-        <div class="map__card">
-            <p class="map__card__title">NЁRDS DESIGN STUDIO</p>
-            <p class="map__card__text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-            <p class="map__card__text">тел. +7 (812) 275-75-75</p>
-            <div class="button">НАПИШИТЕ НАМ</div>
 
+    <div class="map">
+      <div class="container">
+        <div class="map__card">
+            <div class="card__title">NЁrds design studio</div>
+            <div class="card__text">191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</div>
+            <div class="card__text">тел. +7 (812) 275-75-75</div>
+            <a class="btn" href="#">Напишите нам</a>
 
         </div>
-        <div class="yamap"></div>
+        <div class="map"></div>
+      <img src="#">
     </div>
-<footer class="footer">
-  <div class="container">
-    <ul class="footer__share">
-        <li class="footer__share__itm footer__share__itm--vk"></li>
-        <li class="footer__share__itm footer__share__itm--fb"></li>
-        <li class="footer__share__itm footer__share__itm--inst"></li>
-    </ul>
-    <p class="footer__title">Давайте дружить, это выгодно!</p>
-    <p class="footer__subtitle">Скидка 10% для друзей из социальных сетей.</p>
+
+<footer class="footer"></footer>
+  <div class="container"></div>
+    <div class="footer__share">
+        <a class="footer__itm--vk" href="#">Вконтакте</a>
+        <a class="footer__itm--fb" href="#">Фейсбук</a>
+        <a class="footer__itm--inst" href="#">Инстаграм</a>
     </div>
-</footer>
+    <div class="footer__title">Давайте дружить, это выгодно!</div>
+    <div class="footer__subtitle">Скидка 10% для друзей из социальных сетей.</div>
+    </div>
+      </div>
+
 </body>
 </html>
