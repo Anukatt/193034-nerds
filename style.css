@@ -16,6 +16,13 @@ body{/*ok*/
   margin-bottom: 10px;
   background-color: #eeeeee;
 }
+
+.container{/*ok*/
+  width: 880px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+
 .clearfix::after{
   content: "";
   display: table;
@@ -24,11 +31,7 @@ body{/*ok*/
   height: 125px;
 }
 
-.container{/*ok*/
-    width: 880px;
-    margin: 0 auto;
-    padding: 0 10px;
-}
+
 .logo{
   float: left;
   width: 140px;
@@ -38,6 +41,7 @@ body{/*ok*/
 .header__nav{
   float: right;
   width: 560px;
+  min-height: 84px;
 }
 
 .slider{
