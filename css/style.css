@@ -4,17 +4,24 @@ body{/*ok*/
   min-height: 1750px;
   margin: 0;
   padding: 0;
+  font-family: "Roboto",Arial,sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: normal;
+  color: #000000;
 }
 
 body{/*ok*/
-  background: url("nerds-index.jpg") no-repeat 50%;
+  background: url("F:/_учеба/Repository/193034-nerds/img/nerds-index.jpg") no-repeat;
   background-size: 1122px auto;
+  background-position: 50%;
 }
 
-.header{/*ok*/
+.site-header{/*ok*/
   min-height: 84px;
   margin-bottom: 10px;
   background-color: #eeeeee;
+
 }
 
 .container{/*ok*/
@@ -31,17 +38,10 @@ body{/*ok*/
   height: 125px;
 }
 
-
 .logo{
   float: left;
   width: 140px;
   height: 57px;
-}
-
-.header__nav{
-  float: right;
-  width: 560px;
-  min-height: 84px;
 }
 
 .slider{
